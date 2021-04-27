@@ -12,10 +12,6 @@ class AnsibleLintAT507 < Formula
   depends_on "libyaml"
   depends_on "python@3.9"
 
-  depend_on "foo/bar/baz"
-
-(FYI foo is Github user name, homebrew-bar is a Github repo by foo)
-
   resource "bracex" do
     url "https://files.pythonhosted.org/packages/bb/80/7118945282845f8dc337c45c7d9d171a9f86d0c7650ac7e65d60995691d2/bracex-2.1.1.tar.gz"
     sha256 "01f715cd0ed7a622ec8b32322e715813f7574de531f09b70f6f3b2c10f682425"
