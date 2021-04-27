@@ -11,7 +11,7 @@ Unlike `chocolatey` or most Linux package managers, `brew` does not have a nativ
 |Kubernetes CLI (`kubectl`)|1.21.0 `@1.21.0`||
 |Terraform|0.15 `@0.15`||
 |ansible-lint|5.0.7 `@5.0.7`|Depends on `ansible@3.2.0` from this tap|
-|kubectx|0.9.3 `@0.9.3`|Depends on `kubernetes-cli@1.21.0 from this tap|
+|kubectx|0.9.3 `@0.9.3`|Depends on `kubernetes-cli@1.21.0` from this tap|
 
 ## How do I install these formulae?
 
