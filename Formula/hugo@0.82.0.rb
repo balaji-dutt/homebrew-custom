@@ -9,7 +9,7 @@ class HugoAT0820 < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", *std_go_args, "-tags", "extended"
+    system "go", "build", *std_go_args, "-tags", "extended", "-o", bin/"hugo"
 
     # Build bash completion
     system bin/"hugo", "gen", "autocomplete", "--completionfile=hugo.sh"
