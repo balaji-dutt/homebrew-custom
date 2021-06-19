@@ -9,7 +9,7 @@ Unlike `chocolatey` or most Linux package managers, `brew` does not have a nativ
 |Hugo| 0.70.0 `@0.70.0` <br> 0.82.0 `@0.82.0`||
 |Ansible|3.3.0 `@3.3.0` <br> 3.2.0 `@3.2.0`||
 |Kubernetes CLI (`kubectl`)|1.21.0 `@1.21.0`||
-|Terraform|0.15 `@0.15`||
+|Terraform|0.15 `@0.15` <br> 1.0.0 `@1.0.0`||
 |ansible-lint|5.0.7 `@5.0.7`|Depends on `ansible@3.2.0` from this tap|
 |kubectx|0.9.3 `@0.9.3`|Depends on `kubernetes-cli@1.21.0` from this tap|
 
