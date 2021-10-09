@@ -1,0 +1,6 @@
+{
+    "default": true,
+    "MD033": false, /* No in-line HTML */
+    "MD013": false, /* Line length 80 chars */
+    "no-hard-tabs": true
+}
