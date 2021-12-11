@@ -8,7 +8,7 @@ class AnsibleLintAT531 < Formula
   license "MIT"
 
   depends_on "pkg-config" => :build
-  depends_on "ansible"
+  depends_on "balaji-dutt/custom/ansible@5.0.1"
   depends_on "libyaml"
   depends_on "python@3.10"
 
