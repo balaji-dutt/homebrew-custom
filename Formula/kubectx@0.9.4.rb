@@ -6,7 +6,7 @@ class KubectxAT094 < Formula
   license "Apache-2.0"
   head "https://github.com/ahmetb/kubectx.git"
 
-  depends_on "balaji-dutt/custom/kubernetes-cli@1.23.0"
+  depends_on "balaji-dutt/custom/kubernetes-cli@1.23.3"
 
   def install
     bin.install "kubectx", "kubens"
