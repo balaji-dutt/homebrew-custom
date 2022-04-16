@@ -11,7 +11,6 @@ Unlike `chocolatey` or most Linux package managers, `brew` does not have a nativ
 |Hugo| 0.70.0 `@0.70.0` <br> 0.82.0 `@0.82.0`||
 |Ansible|3.3.0 `@3.3.0` <br> 3.2.0 `@3.2.0` <br> 5.0.1 `@5.0.1` <br> 5.2.0 `@5.2.0` <br> 5.6.0 `@5.6.0`||
 |Kubernetes CLI (`kubectl`)|1.21.0 `@1.21.0` <br> 1.22.2 `@1.22.2` <br> 1.23.0 `@1.23.0` <br> 1.23.3 `@1.23.3` <br> 1.23.5 `@1.23.5`||
-|Terraform|0.15 `@0.15` <br> 1.0.9 `@1.0.9` <br> 1.1.0 `@1.1.0` <br> 1.1.4 `@1.1.4` <br> 1.1.8 `@1.1.8`||
 |ansible-lint|5.0.7 `@5.0.7` <br> 5.3.1 `@5.3.1` <br> 5.3.2 `@5.3.2` <br> 6.0.2 `@6.0.2`|`v5.0.7` Depends on `ansible@3.2.0` from this tap <br> `v5.3.1` Depends on `ansible@5.0.1` from this tap <br> `v5.3.2` Depends on `ansible@5.2.0` from this tap <br> `v6.0.2` Depends on `ansible@5.6.0` from this tap|
 |kubectx|0.9.3 `@0.9.3` <br> 0.9.4 `@0.9.4`|Depends on `kubernetes-cli` from this tap <br> `v0.9.4` Depends on `kubectl@1.23.5` from this tap|
 
