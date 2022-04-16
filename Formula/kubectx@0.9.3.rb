@@ -8,7 +8,7 @@ class KubectxAT093 < Formula
 
   bottle :unneeded
 
-  depends_on "balaji-dutt/custom/kubernetes-cli@1.21.0"
+  depends_on "balaji-dutt/custom/kubernetes-cli@1.23.5"
 
   def install
     bin.install "kubectx", "kubens"
