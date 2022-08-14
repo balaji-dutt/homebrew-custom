@@ -9,10 +9,10 @@ Unlike `chocolatey` or most Linux package managers, `brew` does not have a nativ
 |Software|Available Versions|Notes|
 |--------|------------------|-----|
 |Hugo| 0.70.0 `@0.70.0` <br> 0.82.0 `@0.82.0`||
-|Ansible|3.3.0 `@3.3.0` <br> 3.2.0 `@3.2.0` <br> 5.0.1 `@5.0.1` <br> 5.2.0 `@5.2.0` <br> 5.6.0 `@5.6.0` <br> 5.7.1 `@5.7.1` <br> 5.8.0 `@5.8.0` <br> 6.0.0 `@6.0.0`||
-|Kubernetes CLI (`kubectl`)|1.21.0 `@1.21.0` <br> 1.22.2 `@1.22.2` <br> 1.23.0 `@1.23.0` <br> 1.23.3 `@1.23.3` <br> 1.23.5 `@1.23.5` <br> 1.24.1 `@1.24.1`||
-|ansible-lint|5.0.7 `@5.0.7` <br> 5.3.1 `@5.3.1` <br> 5.3.2 `@5.3.2` <br> 6.0.2 `@6.0.2` <br> 6.1.0 `@6.1.0` <br> 6.2.1 `@6.2.1` <br> 6.3.0 `@6.3.0`|`v5.0.7` Depends on `ansible@3.2.0` from this tap <br> `v5.3.1` Depends on `ansible@5.0.1` from this tap <br> `v5.3.2` Depends on `ansible@5.2.0` from this tap <br> `v6.0.2` Depends on `ansible@5.6.0` from this tap <br> `v6.1.0` Depends on `ansible@5.7.1` from this tap <br> `v6.2.1` Depends on `ansible@5.8.0` from this tap <br> `v6.3.0` Depends on `ansible@6.0.0` from this tap|
-|kubectx|0.9.3 `@0.9.3` <br> 0.9.4 `@0.9.4`|Depends on `kubernetes-cli` from this tap <br> `v0.9.4` Depends on `kubectl@1.24.1` from this tap|
+|Ansible|3.3.0 `@3.3.0` <br> 3.2.0 `@3.2.0` <br> 5.0.1 `@5.0.1` <br> 5.2.0 `@5.2.0` <br> 5.6.0 `@5.6.0` <br> 5.7.1 `@5.7.1` <br> 5.8.0 `@5.8.0` <br> 6.0.0 `@6.0.0` <br> 6.2.0 `@6.2.0`||
+|Kubernetes CLI (`kubectl`)|1.21.0 `@1.21.0` <br> 1.22.2 `@1.22.2` <br> 1.23.0 `@1.23.0` <br> 1.23.3 `@1.23.3` <br> 1.23.5 `@1.23.5` <br> 1.24.1 `@1.24.1` <br> 1.24.3 `@1.24.3`||
+|ansible-lint|5.0.7 `@5.0.7` <br> 5.3.1 `@5.3.1` <br> 5.3.2 `@5.3.2` <br> 6.0.2 `@6.0.2` <br> 6.1.0 `@6.1.0` <br> 6.2.1 `@6.2.1` <br> 6.3.0 `@6.3.0` <br> 6.4.0 `@6.4.0`|`v5.0.7` Depends on `ansible@3.2.0` from this tap <br> `v5.3.1` Depends on `ansible@5.0.1` from this tap <br> `v5.3.2` Depends on `ansible@5.2.0` from this tap <br> `v6.0.2` Depends on `ansible@5.6.0` from this tap <br> `v6.1.0` Depends on `ansible@5.7.1` from this tap <br> `v6.2.1` Depends on `ansible@5.8.0` from this tap <br> `v6.3.0` Depends on `ansible@6.0.0` from this tap <br> `v6.4.0` Depends on `ansible@6.2.0` from this tap|
+|kubectx|0.9.3 `@0.9.3` <br> 0.9.4 `@0.9.4`|Depends on `kubernetes-cli` from this tap <br> `v0.9.4` Depends on `kubernetes-cli@1.24.3` from this tap|
 
 ## How do I install these formulae?
 
