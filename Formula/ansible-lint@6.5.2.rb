@@ -9,7 +9,7 @@ class AnsibleLintAT652 < Formula
 
   depends_on "pkg-config" => :build
   depends_on "rust" => :build # for cryptography
-  depends_on "balaji-dutt/custom/ansible@6.3.0"
+  depends_on "balaji-dutt/custom/ansible@6.4.0"
   depends_on "libyaml"
   depends_on "python@3.10"
 
