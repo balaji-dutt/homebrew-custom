@@ -14,7 +14,7 @@ Unlike `chocolatey` or most Linux package managers, `brew` does not have a nativ
 |kubectx <br> _Not actively updated (as of October 2022)_|0.9.3 `@0.9.3` <br> 0.9.4 `@0.9.4`|`v0.9.3` Depends on `kubernetes-cli@1.23.5` from this tap <br> `v0.9.4` Depends on `kubernetes-cli@1.25.2` from this tap|
 |Kubernetes CLI (`kubectl`) <br> _Not actively updated (as of October 2022)_|1.21.0 `@1.21.0` <br> 1.22.2 `@1.22.2` <br> 1.23.0 `@1.23.0` <br> 1.23.3 `@1.23.3` <br> 1.23.5 `@1.23.5` <br> 1.24.1 `@1.24.1` <br> 1.24.3 `@1.24.3` <br> 1.25.0 `@1.25.0` <br> 1.25.1 `@1.25.1` <br> 1.25.2 `@1.25.2`||
 
-> Packages marked as _No longer actively maintained_ are not kept up to date with upstream brew as I have moved to use the native upstream packages instead. This is mostly because a number of ecosystem components (such as linters) do not work well with pinned versions.
+> Packages marked as _Not actively updated_ are not kept up to date with upstream brew as I have moved to use the native upstream packages instead. This is mostly because a number of ecosystem components (such as linters) do not work well with pinned versions.
 
 ## How do I install these formulae?
 
